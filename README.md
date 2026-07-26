@@ -1,8 +1,7 @@
-# microMonteCarlo
+# electron-transport-sim
 
 ![Monte Carlo simulation with scattering on](assets/scattering_on.gif)
-A micro project for playing around with Monte Carlo simulations. 
-This project was initially for simulating Electron Transport using Monte Carlo methods.
+A MATLAB simulator for modeling electron transport using Monte Carlo methods.
 For more information on Monte Carlo methods for electron transport see here:
 https://en.wikipedia.org/wiki/Monte_Carlo_methods_for_electron_transport
 
@@ -13,7 +12,7 @@ However it should work in any MATLAB version and in Windows.
 In Ubuntu or MacOS open a terminal and clone the repo, then open the project in MATLAB.
 To clone the project enter this in a terminal:
 ```bash
-git clone https://github.com/JonathanALevine/microMonteCarlo
+git clone https://github.com/JonathanALevine/electron-transport-sim
 ```
 
 ### Example usage
@@ -68,9 +67,9 @@ run(states, epochs);
 ### Features
 List down the features of your project here. For example:
 - Electron movement under an electric field is implemented in `Part5.m` in 
-[legacy](https://github.com/JonathanALevine/microMonteCarlo/tree/legacy).
-Work is ongoing at tranferring this to [main](https://github.com/JonathanALevine/microMonteCarlo). 
+[legacy](https://github.com/JonathanALevine/electron-transport-sim/tree/legacy).
+Work is ongoing at tranferring this to [main](https://github.com/JonathanALevine/electron-transport-sim).
 PR's are welcome if you would like to implement this. 
 - This project currently does not have tests. This is needed. PR's are welcome if you would like to implement this.
-- For code to record the simulations a videos in .avi see `main.m` and `run.m` in [readme-file](https://github.com/JonathanALevine/microMonteCarlo/tree/readme-file). 
+- For code to record the simulations a videos in .avi see `main.m` and `run.m` in [readme-file](https://github.com/JonathanALevine/electron-transport-sim/tree/readme-file).
 See https://itsfoss.com/convert-video-gif-linux/ on how to convert .avi files to gif via Linux terminal commands.
